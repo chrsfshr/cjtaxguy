@@ -52,6 +52,8 @@ table {
 
 .navbar {
 	border: 1px solid black;
+	position: fixed;
+	width: 100%;
 }
 
 .navbar-content {
