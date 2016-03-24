@@ -241,6 +241,33 @@ header {
 	background-size: cover;
 }
 
+.quote-content {
+	max-width: 960px;
+    margin: auto;
+    text-align: center;
+    /*border: 1px solid black;*/
+    margin-top: 40px;
+}
+
+.quote-test p {
+	color: #9A9A9A;
+}
+
+.quote-img {
+    margin-bottom: 40px;
+}
+
+.quote-test {
+    max-width: 700px;
+    margin: auto;
+    margin-bottom: 40px;
+}
+
+.quote-imgs img {
+    padding: 40px;
+}
+
+
 @media (max-width: 560px) {
   .nav-logo {
     float: none;
