@@ -137,6 +137,12 @@ header {
     cursor: pointer;
 }
 
+.btn-color {
+	color: #2F83B6;
+	border: 3px solid #2F83B6;
+	width: 205px;
+}
+
 .services {
 	background-color: #2F83B6;
 	text-align: center;
@@ -154,10 +160,11 @@ header {
 .four-c img {
 	width: 215px;
 	padding: 15px;
+	cursor: pointer;
 }
 
 .four-c-copy {
-	padding-bottom: 20px;
+	padding-bottom: 40px;
 	margin: auto;
 	width: 800px;
 }
@@ -167,6 +174,34 @@ header {
 	padding-top: 0;
 }
 
+.calendar {
+	/*border: 1px solid black;*/
+	max-width: 960px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.calendar p{
+	color: #9A9A9A;
+}
+
+.calendar h2 {
+	color: #2F83B6;
+}
+
+.calendar-copy {
+	/*border: 1px solid red;*/
+	max-width: 500px;
+	float: left;
+	margin: 30px;
+}
+
+.calendar-img {
+	width: 280px;
+	/*border: 1px solid blue;*/
+	float: right;
+	margin: 25px;
+}
 
 @media (max-width: 560px) {
   .nav-logo {
