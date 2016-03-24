@@ -137,10 +137,13 @@ header {
     cursor: pointer;
 }
 
+.long-btn {
+	width: 205px;
+}
+
 .btn-color {
 	color: #2F83B6;
 	border: 3px solid #2F83B6;
-	width: 205px;
 }
 
 .services {
@@ -201,6 +204,41 @@ header {
 	/*border: 1px solid blue;*/
 	float: right;
 	margin: 25px;
+}
+
+.contract {
+	/*border: 1px solid black;*/
+	max-width: 960px;
+	margin: auto;
+	margin-top: 20px;
+}
+
+.contract p{
+	color: #9A9A9A;
+}
+
+.contract h2 {
+	color: #2F83B6;
+}
+
+.contract-copy {
+	/*border: 1px solid red;*/
+	max-width: 500px;
+	float: right;
+	margin: 30px;
+}
+
+.contract-img {
+	width: 280px;
+	/*border: 1px solid blue;*/
+	float: left;
+	margin: 25px;
+}
+
+.mobile {
+	background: url('img/busy-background.png') no-repeat center center;
+	height: 100%;
+	background-size: cover;
 }
 
 @media (max-width: 560px) {
