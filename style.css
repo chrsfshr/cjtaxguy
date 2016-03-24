@@ -48,17 +48,30 @@ table {
 }
 
 /*END RESET*/
-
-
-h1 {
-	font-size: 36px;
-	color: white;
+body {
 	line-height: 1.5;
 	font-family: 'Circular STD', 'Helvetica', 'Arial', 'sans-serif';
 }
 
+h1 {
+	font-size: 50px;
+	color: white;
+	line-height: 1.25;
+	font-family: 'Circular STD', 'Helvetica', 'Arial', 'sans-serif';
+}
+
+h2 {
+	font-size: 36px;
+	color: white;
+}
+
+p {
+	font-size: 24px;
+	color: white;
+}
+
 .navbar {
-	border: 1px solid black;
+	/*border: 1px solid black;*/
 	position: fixed;
 	width: 100%;
 	background-color: white;
@@ -66,7 +79,7 @@ h1 {
 }
 
 .navbar-content {
-	/*border: 1px solid red;*/
+	border: 1px solid white;
 	margin: 10px;
 }
 
@@ -81,6 +94,8 @@ h1 {
 .nav-link {
 	text-align: right;
 	margin: 20px;
+	color: #2F83B6;
+	cursor: pointer;
 }
 
 .nav-link > ul > li {
@@ -103,9 +118,9 @@ header {
 
 .splash {
 	position: absolute;
-	top: 115px;
-	left: 45px;
-	width: 530px;
+	top: 130px;
+	left: 130px;
+	width: 630px;
 }
 
 .btn {
@@ -117,9 +132,39 @@ header {
     font-size: 20px;
     font-weight: bold;
     color: white;
-    margin-top: 16px;
+    margin-top: 20px;
     outline: none;
     cursor: pointer;
+}
+
+.services {
+	background-color: #2F83B6;
+	text-align: center;
+}
+
+.services h2 {
+	padding-top: 40px;
+}
+
+.four-c {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.four-c img {
+	width: 215px;
+	padding: 15px;
+}
+
+.four-c-copy {
+	padding-bottom: 20px;
+	margin: auto;
+	width: 800px;
+}
+
+.four-c-copy h2 {
+	margin-bottom: 30px;
+	padding-top: 0;
 }
 
 
@@ -127,6 +172,7 @@ header {
   .nav-logo {
     float: none;
     text-align: center;
+    margin-left: 0;
   }
 
   .nav-link {
