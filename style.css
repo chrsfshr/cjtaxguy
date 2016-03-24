@@ -50,14 +50,23 @@ table {
 /*END RESET*/
 
 
+h1 {
+	font-size: 36px;
+	color: white;
+	line-height: 1.5;
+	font-family: 'Circular STD', 'Helvetica', 'Arial', 'sans-serif';
+}
+
 .navbar {
 	border: 1px solid black;
 	position: fixed;
 	width: 100%;
+	background-color: white;
+	z-index: 99999;
 }
 
 .navbar-content {
-	border: 1px solid red;
+	/*border: 1px solid red;*/
 	margin: 10px;
 }
 
@@ -77,4 +86,50 @@ table {
 .nav-link > ul > li {
 	display: inline;
 	padding: 10px;	
+}
+
+main {
+	position: absolute;
+	top: 80px;
+	height: 100%;
+	width: 100%;
+}
+
+header {
+	background: url('img/Banner_Image.png') no-repeat center center;
+	height: 100%;
+	background-size: cover;
+}
+
+.splash {
+	position: absolute;
+	top: 115px;
+	left: 45px;
+	width: 530px;
+}
+
+.btn {
+	border: 3px solid white;
+    background: none;
+    padding: 12px;
+    border-radius: 8px;
+    width: 160px;
+    font-size: 20px;
+    font-weight: bold;
+    color: white;
+    margin-top: 16px;
+    outline: none;
+    cursor: pointer;
+}
+
+
+@media (max-width: 560px) {
+  .nav-logo {
+    float: none;
+    text-align: center;
+  }
+
+  .nav-link {
+  	text-align: center;
+  }
 }
