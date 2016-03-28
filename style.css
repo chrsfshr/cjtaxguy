@@ -328,6 +328,31 @@ footer h2 {
 	cursor: pointer;
 }
 
+.phone {
+	float: left;
+	max-width: 500px;
+}
+
+.phone-copy {
+	float: right;
+	max-width: 500px;
+	text-align: center;
+}
+
+.phone img {
+	width: 300px;
+}
+
+.copy-1 {
+    margin-bottom: 40px;
+}
+
+.mobile-content {
+	max-width: 960px;
+	margin: auto;
+	padding-top: 40px;
+}
+
 
 @media (max-width: 560px) {
   .nav-logo {
