@@ -355,13 +355,80 @@ footer h2 {
 
 
 @media (max-width: 560px) {
-  .nav-logo {
-    float: none;
-    text-align: center;
-    margin-left: 0;
-  }
+	.nav-logo {
+    	float: none;
+    	text-align: center;
+    	margin-left: 0;
+  	}
 
-  .nav-link {
-  	text-align: center;
-  }
+  	.nav-link {
+  		text-align: center;
+  	}
+
+  	.splash {
+  		left: 0;
+  		margin: 15px;
+  	}
+
+  	.splash h1 {
+  		font-size: 25px;
+  	}
+
+	.four-c img {
+    	width: 135px;
+  	}
+
+	.four-c-copy {
+  		margin: 15px;
+  	}
+
+	.four-c-copy p {
+		font-size: 20px;
+  	}
+
+	.calendar h2 {
+  		font-size: 25px;
+  		margin-bottom: 10px;
+  	}
+
+  	.contract h2 {
+  		font-size: 25px;
+  		margin-bottom: 10px;
+  	}
+	
+	.calendar-copy {
+		margin: 20px;
+	}
+
+	.contract-copy {
+		margin: 20px;
+	}
+
+	.contract p {
+		font-size: 18px;
+	}
+
+	.calendar p {
+  		font-size: 18px;
+  	}
+
+	.calendar-img {
+    	display: none;
+	}
+
+	.contract-img {
+    	display: none;
+	}
+
+	.phone {
+		display: none;
+	}
+
+	.phone-copy {
+		margin: 15px;
+	}
+
+	.phone-copy p {
+		font-size: 20px;
+	}
 }
