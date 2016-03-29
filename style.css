@@ -356,9 +356,9 @@ footer h2 {
 
 @media (max-width: 560px) {
 	.nav-logo {
-    	float: none;
-    	text-align: center;
-    	margin-left: 0;
+	   	float: none;
+		text-align: center;
+		margin-left: 0;
   	}
 
   	.nav-link {
@@ -430,5 +430,21 @@ footer h2 {
 
 	.phone-copy p {
 		font-size: 20px;
+	}
+
+	.bureau {
+		text-align: left;
+	}
+
+	.quote-test {
+    	margin: 15px;
+	}
+
+	.quote-test p {
+		font-size: 18px;
+	}
+
+	.quote-imgs img {
+    	width: 100px;
 	}
 }
